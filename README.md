@@ -1,16 +1,18 @@
-# mongodb_crud
+# MongoDB CRUD Operations
 
-A new Flutter project.
 
-## Getting Started
+A Simple Flutter application that connects your application with Mongodb cluster.
 
-This project is a starting point for a Flutter application.
+##  Configure Project
+```bash
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Configure MongoDB
+1. Create new cluster for your application
+2. Create new Database user 
+3. Add your existing public IP Address under Network Access
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages
+1. Uses Faker package to auto generate fake data of names and street addresses.
